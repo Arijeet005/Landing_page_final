@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.video-container {
+  position: relative;
+  height: 100vh; /* Full height */
+  width: 100vw;  /* Full width */
+  overflow: hidden;
+  
+  
+}
+
+#bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+ 
+  display: block;
+  width: 80%;            /* Set the width of the video to 80% of its container */
+  height: auto;          /* Maintain aspect ratio */
+  margin: 0 auto;        /* Center the video and leave space on both sides */
+  padding-left: 5%;     /* Optional: add more padding on the sides if needed */
+  padding-right: 5%;    /* Optional: add more padding on the sides if needed */
+}
+
+.overlay-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 8rem;
+
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* Styling for custom buttons */
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center; /* Align icon and text */
+  gap: 8px; /* Space between icon and text */
+}
+
+.btn-login {
+  background-color: #1E3A8A; /* Blue color */
+  color: white;
+  border: 2px solid #1E3A8A;
+ 
+}
+
+.btn-signup {
+  background-color: white;
+  color: #1E3A8A; /* Blue text */
+  border: 2px solid #1E3A8A; /* Blue border */
+  
+}
+
+.btn-login:hover {
+  background-color: #3B82F6; /* Lighter blue on hover */
+}
+
+.btn-signup:hover {
+  background-color: #E0F2FE; /* Light blue background on hover */
+}
+
+/* Center the buttons */
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  gap: 20px; /* Space between buttons */
+  margin-top: 50px;
+  padding-right: 20px; /* Optional: Add some padding to the right */
+}

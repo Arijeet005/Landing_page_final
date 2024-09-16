@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Video Background with Text</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .title {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Login/Signup Buttons Positioned Right</title>
+</head>
+<body>
+  <header class="bg-blue-600 p-4 flex items-center justify-between shadow-lg">
+    <img alt="Placeholder image 60x80" class="h-20 w-20 rounded-full border-2 border-white" height="80" src="college_logo.jpg"/>
+    
+    <h1 class="text-white text-5xl font-bold absolute left-1/2 transform -translate-x-1/2">
+     Government Engineering College
+    </h1>
+    <div class="button-container">
+      <!-- Login Button with Icon -->
+      <button class="btn btn-login">
+          <i class="fas fa-sign-in-alt"></i> <!-- Font Awesome login icon -->
+          Login
+      </button>
+
+      <!-- Signup Button with Icon -->
+      <button class="btn btn-signup">
+          <i class="fas fa-user-plus"></i> <!-- Font Awesome signup icon -->
+          Signup
+      </button>
+  </div>
+    
+   </header>
+  <nav class="bg-blue-700 p-3 shadow-md mb-5" margin-bottom: 10px;>
+    <ul class="flex space-x-6 justify-center text-white font-semibold">
+     <li class="relative group">
+      <a class="hover:underline flex items-center" href="#">
+       Home
+       <i class="fas fa-caret-down ml-1">
+       </i>
+      </a>
+      <!-- Dropdown menu -->
+      <ul class="absolute hidden group-hover:block bg-blue-800 text-white mt-1 rounded shadow-lg">
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 1
+        </a>
+       </li>
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 2
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="relative group">
+      <a class="hover:underline flex items-center" href="#">
+       Events
+       <i class="fas fa-caret-down ml-1">
+       </i>
+      </a>
+      <!-- Dropdown menu -->
+      <ul class="absolute hidden group-hover:block bg-blue-800 text-white mt-1 rounded shadow-lg">
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 1
+        </a>
+       </li>
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 2
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="relative group">
+      <a class="hover:underline flex items-center" href="#">
+       Job Portal
+       <i class="fas fa-caret-down ml-1">
+       </i>
+      </a>
+      <!-- Dropdown menu -->
+      <ul class="absolute hidden group-hover:block bg-blue-800 text-white mt-1 rounded shadow-lg">
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 1
+        </a>
+       </li>
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 2
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="relative group">
+      <a class="hover:underline flex items-center" href="#">
+       Alumni Stories
+       <i class="fas fa-caret-down ml-1">
+       </i>
+      </a>
+      <!-- Dropdown menu -->
+      <ul class="absolute hidden group-hover:block bg-blue-800 text-white mt-1 rounded shadow-lg">
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 1
+        </a>
+       </li>
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 2
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="relative group">
+      <a class="hover:underline flex items-center" href="#">
+       Communities
+       <i class="fas fa-caret-down ml-1">
+       </i>
+      </a>
+      <!-- Dropdown menu -->
+      <ul class="absolute hidden group-hover:block bg-blue-800 text-white mt-1 rounded shadow-lg">
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 1
+        </a>
+       </li>
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 2
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="relative group">
+      <a class="hover:underline flex items-center" href="#">
+       Support
+       <i class="fas fa-caret-down ml-1">
+       </i>
+      </a>
+      <!-- Dropdown menu -->
+      <ul class="absolute hidden group-hover:block bg-blue-800 text-white mt-1 rounded shadow-lg">
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 1
+        </a>
+       </li>
+       <li>
+        <a class="block px-4 py-2 hover:bg-blue-900" href="#">
+         Submenu 2
+        </a>
+       </li>
+        </ul>
+     </li>
+    </ul>
+   </nav>
+
+  <div class="video-container">
+    <!-- Local video file -->
+    <video autoplay muted loop id="bg-video">
+      <source src="back_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    <!-- Text overlay -->
+    <div class="overlay-text">
+      <p>-----------Some additional information here----------</p>
+      <!-- <h1>Where Memories Meet Opportunities</h1> -->
+      <h2>Unite.Inspire.Achieve</h2>
+      
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-bold title text-gray-800 mb-8">ALUMNI EVENTS</h1>
+    <div class="border-t border-blue-200 mb-8"></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="flex flex-col items-start">
+            <div class="flex items-center mb-2">
+                <div class="text-center mr-4">
+                    <div class="text-sm text-gray-500">SEP</div>
+                    <div class="text-4xl font-bold text-blue-800">20<sup>+</sup></div>
+                    <div class="text-sm text-gray-500">Fri</div>
+                </div>
+                <div class="border-l border-blue-200 h-full"></div>
+            </div>
+            <a href="#" class="text-xl font-bold text-blue-800 mb-2 hover:underline">Softball Alumni Weekend</a>
+            <div class="flex items-center text-gray-500 mb-2">
+              <i class="fas fa-clock mr-2"></i>
+              <span>07:30am</span>
+          </div>
+            <div class="flex items-center text-gray-500">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                <span>Nebraska</span>
+            </div>
+        </div>
+        <div class="flex flex-col items-start">
+            <div class="flex items-center mb-2">
+                <div class="text-center mr-4">
+                    <div class="text-sm text-gray-500">OCT</div>
+                    <div class="text-4xl font-bold text-blue-800">20<sup>+</sup></div>
+                    <div class="text-sm text-gray-500">Fri</div>
+                </div>
+                <div class="border-l border-blue-200 h-full"></div>
+            </div>
+            <a href="#" class="text-xl font-bold text-blue-800 mb-2 hover:underline">Creighton Days</a>
+            <div class="flex items-center text-gray-500 mb-2">
+              <i class="fas fa-clock mr-2"></i>
+              <span>07:30am</span>
+          </div>
+            <div class="flex items-center text-gray-500">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                <span>Nebraska</span>
+            </div>
+        </div>
+        <div class="flex flex-col items-start">
+            <div class="flex items-center mb-2">
+                <div class="text-center mr-4">
+                    <div class="text-sm text-gray-500">NOV</div>
+                    <div class="text-4xl font-bold text-blue-800">20</div>
+                    <div class="text-sm text-gray-500">Fri</div>
+                </div>
+                <div class="border-l border-blue-200 h-full"></div>
+            </div>
+            <a href="#" class="text-xl font-bold text-blue-800 mb-2 hover:underline">Heider Alumni Ambassadors Council Meeting</a>
+            <div class="flex items-center text-gray-500 mb-2">
+                <i class="fas fa-clock mr-2"></i>
+                <span>07:30am</span>
+            </div>
+            <div class="flex items-center text-gray-500">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                <span>Nebraska</span>
+            </div>
+        </div>
+    </div>
+    <div class="mt-8">
+        <a href="#" class="px-6 py-3 border border-blue-500 text-blue-800 font-bold rounded hover:bg-blue-50">View All Events</a>
+    </div>
+</div>
+
+<div id="lines-group" class="flex flex-col gap-4">
+                    <div id="line1" class="flex gap-4 w-screen -translate-x-48 transition-transform ease-linear">
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 3.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 4.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">LifeAt</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 5.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Convy</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 6.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Morgen</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 7.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Campsite</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 8.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Rise</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 9.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">ClickUp</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 10.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Notion</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 11.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Sunsama</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 12.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Beeper</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 13.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Cal</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 14.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Webstudio</span>
+                        </div>
+                        
+                    </div>
+                    <div id="line2" class="flex gap-4 w-screen -translate-x-36 transition-transform ease-linear">
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 15.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 16.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 17.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 18.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 19.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 20.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Moises</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 21.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Basedash</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 22.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Cursor</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 23.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Linear</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 24.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Voiceflow</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 25.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Kitemaker</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 26.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Cron</span>
+                        </div>
+                    </div>
+                    <div id="line3" class="flex md:hidden gap-4 w-screen -translate-x-48 transition-transform ease-linear">
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 15.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 16.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 17.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 3.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 4.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 5.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 12.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 13.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 14.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 24.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 25.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                        <div class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
+                            <img src="asset 26.png" class="w-12 h-12 md:w-16 md:h-16" alt="">
+                            <span class="text-[12px] font-semibold lg:text-[16px]">Unbounce1</span>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+      <!-- footer section-->
+      <footer class="py-8 bg-blue-900">
+        <div class="container mx-auto px-4">
+         <div class="flex justify-between items-start">
+          <div class="flex items-center space-x-4">
+           <img alt="Washington University in St. Louis logo" class="mb-4" height="85" src="college_logo.jpg" width="85"/>
+           <div>
+            <h1 class="text-4xl font-bold">
+              Government Engineering College
+            </h1>
+            <h2 class="text-xl font-semibold">
+             University Advancement
+            </h2>
+           </div>
+          </div>
+          <div class="flex space-x-16">
+           <div>
+            <h3 class="font-bold mb-2">
+             GET INVOLVED
+            </h3>
+            <ul>
+             <li>
+              <a class="text-blue-400" href="#">
+               Regional Networks
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               Shared Interest &amp; Cultural Groups
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               Professional Networks
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               Volunteer
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               Travel with Us
+              </a>
+             </li>
+            </ul>
+           </div>
+           <div>
+            <h3 class="font-bold mb-2">
+             RESOURCES
+            </h3>
+            <ul>
+             <li>
+              <a class="text-blue-400" href="#">
+               WashU CNX
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               Reunion at WashU
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               <em>
+                for
+               </em>
+               Parents &amp; Families
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               <em>
+                for
+               </em>
+               Current Students
+              </a>
+             </li>
+            </ul>
+           </div>
+           <div>
+            <h3 class="font-bold mb-2">
+             LEARN MORE
+            </h3>
+            <ul>
+             <li>
+              <a class="text-blue-400" href="#">
+               University Advancement
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               Giving to WashU
+              </a>
+             </li>
+             <li>
+              <a class="text-blue-400" href="#">
+               Contact Us
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+         
+         </div>
+         <div class="flex justify-between items-center mt-8">
+          <p class="text-sm">
+           ©2024 Government Engineering College
+          </p>
+          <div class="flex space-x-4">
+           <a class="text-white" href="#">
+            <i class="fab fa-facebook-f">
+            </i>
+           </a>
+           <a class="text-white" href="#">
+            <i class="fab fa-twitter">
+            </i>
+           </a>
+           <a class="text-white" href="#">
+            <i class="fab fa-linkedin-in">
+            </i>
+           </a>
+           <a class="text-white" href="#">
+            <i class="fab fa-youtube">
+            </i>
+           </a>
+           <a class="text-white" href="#">
+            <i class="fab fa-instagram">
+            </i>
+           </a>
+          </div>
+         </div>
+        </div>
+       </footer>
+
+      </body>
+<script src="script.js"></script>
+</html>
